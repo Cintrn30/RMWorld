@@ -1,117 +1,15 @@
-body{
-margin:0;
-font-family:Arial,Helvetica,sans-serif;
-background:#0f1115;
-color:white;
-}
 
-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 8%;
-background:#111827;
-position:sticky;
-top:0;
-}
-
-.logo{
-font-size:28px;
-font-weight:bold;
-color:#ff3b3b;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-}
-
-.hero{
-text-align:center;
-padding:100px 20px;
-background:linear-gradient(to right,#111827,#1f2937);
-}
-
-.hero h1{
-font-size:60px;
-}
-
-.hero p{
-font-size:20px;
-}
-
-#searchInput{
-width:60%;
-padding:15px;
-margin-top:20px;
-border-radius:10px;
-border:none;
-}
-
-.featured,
-.category,
-.page{
-padding:60px 8%;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:25px;
-}
-
-.card{
-background:#1f2937;
-border-radius:15px;
-overflow:hidden;
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-}
-
-.card img{
-width:100%;
-display:block;
-}
-
-.card h3{
-padding:15px;
-}
-
-.card p{
-padding:0 15px 20px;
-}
-
-form{
-display:flex;
-flex-direction:column;
-gap:15px;
-max-width:700px;
-}
-
-input,
-textarea{
-padding:15px;
-border:none;
-border-radius:10px;
-}
-
-button{
-padding:15px;
-background:#ff3b3b;
-border:none;
-color:white;
-font-size:16px;
-border-radius:10px;
-cursor:pointer;
-}
-
-footer{
-background:#111827;
-padding:30px;
-text-align:center;
-margin-top:50px;
-}
+body{margin:0;font-family:Arial,sans-serif;background:#0b1220;color:#fff}
+header{display:flex;justify-content:space-between;align-items:center;padding:15px 5%;background:#101826;position:sticky;top:0}
+.logo{font-size:32px;font-weight:bold;color:#ff4040}
+nav a{color:white;text-decoration:none;margin-left:18px}
+.hero{padding:100px 20px;text-align:center;background:linear-gradient(135deg,#111827,#172554)}
+.hero h1{font-size:64px}
+.section{padding:50px 5%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:#182235;border-radius:12px;padding:20px}
+.card a{color:#7dd3fc;text-decoration:none}
+footer{background:#101826;padding:20px;text-align:center;margin-top:40px}
+.ticker{background:#ff4040;padding:10px;font-weight:bold}
+input,textarea{width:100%;padding:12px;margin:8px 0;border-radius:8px;border:none}
+button{padding:12px 20px;background:#ff4040;color:white;border:none;border-radius:8px}
